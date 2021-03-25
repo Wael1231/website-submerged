@@ -1,3 +1,9 @@
+```
+./caddy_darwin_amd64 file-server --root dist --listen :42069
+```
+
+---
+
 # polusgg-coming-soon
 
 ## Project setup
