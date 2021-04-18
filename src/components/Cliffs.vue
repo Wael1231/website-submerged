@@ -1,5 +1,5 @@
 <template>
-  <img class="object-cover" alt="Footer cliffs" src="../assets/cliffs.png">
+  <img class="object-cover" alt="Footer cliffs" src="https://static.polus.gg/images/cliffs.png">
 </template>
 
 <script lang="ts">

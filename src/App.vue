@@ -3,7 +3,8 @@
     <div class="mb-auto lg:space-y-20 sm:space-y-14 space-y-8">
       <Navigation />
       <Logo />
-      <Downloads class="opacity-50" />
+      <Downloads />
+      <TownOfUs />
       <Discord />
     </div>
     <Cliffs />
@@ -17,6 +18,7 @@ import Logo from "./components/Logo.vue";
 import Downloads from "./components/Downloads.vue";
 import Discord from "./components/Discord.vue";
 import Cliffs from "./components/Cliffs.vue";
+import TownOfUs from "./components/TownOfUs.vue";
 
 export default defineComponent({
   name: "App",
@@ -26,6 +28,7 @@ export default defineComponent({
     Downloads,
     Discord,
     Cliffs,
+    TownOfUs,
   },
 });
 </script>

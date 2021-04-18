@@ -1,6 +1,6 @@
 <template>
-  <div class="flex items-center justify-center sm:px-8 px-4 pb-6">
-    <p class="text-white font-medium md:text-2xl sm:text-lg text-sm mr-2 -mt-1">Stay up to date on our</p>
+  <div class="flex flex-wrap items-center justify-center sm:px-8 px-4 pb-6">
+    <p class="text-white font-medium md:text-2xl sm:text-lg text-sm mr-2 -mt-1">Play with others &amp; stay up to date on</p>
     <a href="https://discord.gg/polus" target="_blank" class="block">
       <img class="object-contain sm:h-14 h-8" alt="Discord logo" src="https://static.polus.gg/images/logos/discord/discord_white.svg">
     </a>
