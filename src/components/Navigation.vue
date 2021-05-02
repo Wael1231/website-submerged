@@ -27,9 +27,9 @@
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 flex items-center">
             <img class="block h-8 w-auto"
-                 width="169"
-                 height="169"
-                 src="https://static.polus.gg/images/logos/polus/polus_small.png"
+                 width="64"
+                 height="64"
+                 src="https://static.polus.gg/images/logos/polus/polus_xsmall.png"
                  alt="Polus.gg logo">
             <p class="block ml-2 text-white font-black">
               Polus.gg
