@@ -1,5 +1,9 @@
 <template>
-  <img class="object-cover" alt="Footer cliffs" src="https://static.polus.gg/images/cliffs.png">
+  <img class="object-cover"
+       width="1920"
+       height="406"
+       src="https://static.polus.gg/images/cliffs.png"
+       alt="Footer cliffs">
 </template>
 
 <script lang="ts">

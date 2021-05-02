@@ -2,10 +2,19 @@
   <div class="flex flex-wrap items-center justify-center sm:px-8 px-4 pb-6">
     <p class="text-white font-medium md:text-2xl sm:text-lg text-sm mr-2 -mt-1">
       Play with
-      <span v-if="memberCount > 0" class="font-black underline">{{ new Intl.NumberFormat().format(memberCount) }}</span>
+      <span v-if="memberCount > 0" class="font-black underline">
+        {{ new Intl.NumberFormat().format(memberCount) }}
+      </span>
       others &amp; stay up to date on</p>
-    <a href="https://discord.gg/polus" target="_blank" rel="noopener" class="block">
-      <img class="object-contain sm:h-14 h-8" alt="Discord" src="https://static.polus.gg/images/logos/discord/discord_white.svg">
+    <a href="https://discord.gg/polus"
+       target="_blank"
+       rel="noopener"
+       class="block">
+      <img class="object-contain sm:h-14 h-8 w-auto"
+           width="300"
+           height="102"
+           src="https://static.polus.gg/images/logos/discord/discord_white.svg"
+           alt="Discord">
     </a>
   </div>
 </template>
