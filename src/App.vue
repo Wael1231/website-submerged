@@ -2,10 +2,12 @@
   <div class="flex flex-col h-full">
     <div class="mb-auto lg:space-y-20 sm:space-y-14 space-y-8">
       <Navigation />
-      <Logo />
-      <Downloads />
-      <TownOfUs />
-      <Discord />
+      <main class="lg:space-y-20 sm:space-y-14 space-y-8">
+        <Logo />
+        <Downloads />
+        <TownOfUs />
+        <Discord />
+      </main>
     </div>
     <Cliffs />
   </div>
