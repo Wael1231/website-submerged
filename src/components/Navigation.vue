@@ -18,9 +18,9 @@
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
               <a href="/" class="bg-[#5f3f72] text-white px-3 py-2 rounded-md text-sm font-medium">Homepage</a>
-              <a class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Leaderboards</a>
-              <a class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-              <a class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Staff</a>
+              <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Leaderboards</span>
+              <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</span>
+              <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Staff</span>
             </div>
           </div>
         </div>
@@ -29,9 +29,9 @@
     <div v-if="menuOpen" class="sm:hidden" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1">
         <a href="/" class="bg-[#5f3f72] text-white block px-3 py-2 rounded-md text-base font-medium">Homepage</a>
-        <a class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Leaderboards</a>
-        <a class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>
-        <a class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Staff</a>
+        <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Leaderboards</span>
+        <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</span>
+        <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Staff</span>
       </div>
     </div>
   </nav>
