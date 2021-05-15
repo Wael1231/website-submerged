@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center sm:px-8 px-4">
-    <p class="text-white font-medium md:text-xl sm:text-base text-sm mr-2 -mt-1">
+    <p class="text-white font-medium md:text-xl sm:text-base text-sm">
       <a href="https://static.polus.gg/town-of-us/TownOfUs-v2.0.4.zip"
          target="_blank"
          rel="noopener"

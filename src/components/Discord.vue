@@ -1,19 +1,19 @@
 <template>
-  <div class="flex flex-wrap items-center justify-center sm:px-8 px-4 pb-6">
-    <p class="text-white font-medium md:text-2xl sm:text-lg text-sm mr-2 -mt-1">
+  <div class="flex md:flex-row flex-col md:space-x-3 space-x-0 md:space-y-0 space-y-1 items-center justify-center sm:px-8 px-4 pb-6">
+    <p class="text-white font-medium md:text-2xl sm:text-lg text-sm -mt-1">
       Play with
       <span v-if="memberCount > 0" class="font-black underline">
         {{ new Intl.NumberFormat().format(memberCount) }}
       </span>
-      others &amp; stay up to date on</p>
+      others on</p>
     <a href="https://discord.gg/polus"
        target="_blank"
        rel="noopener"
        class="block">
-      <img class="object-contain sm:h-14 h-8 w-auto"
+      <img class="object-contain sm:h-12 h-8 w-auto md:-mt-2 -mt-1"
            width="300"
            height="102"
-           src="https://static.polus.gg/images/logos/discord/discord_white.svg"
+           src="https://static.polus.gg/images/logos/discord/discord_logo_wordmark_white.svg"
            alt="Discord">
     </a>
   </div>
