@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-repeat-x bg-local bg-contain lg:h-96 sm:h-80 h-64 bg-bottom lg:min-h-96 sm:min-h-80 min-h-64"
-       style="background-image: url('https://static.polus.gg/images/cliffs_tile.png')"
+  <div class="bg-repeat-x bg-local bg-contain lg:h-96 sm:h-80 h-64 bg-bottom lg:min-h-96 sm:min-h-80 min-h-64 from-transparent via-transparent to-black"
+       style="background-image: linear-gradient(to bottom, var(--tw-gradient-stops)), url('https://static.polus.gg/images/cliffs_tile.png')"
   />
 </template>
 

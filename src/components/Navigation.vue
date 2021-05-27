@@ -26,11 +26,9 @@
         </div>
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 flex items-center">
-            <img class="block h-8 w-auto"
-                 width="64"
-                 height="64"
-                 src="https://static.polus.gg/images/logos/polus/polus_xsmall.png"
-                 alt="Polus.gg logo">
+            <Logo class="block h-8 w-auto"
+                  width="64"
+                  height="64" />
             <p class="block ml-2 text-white font-black">
               Polus.gg
             </p>
@@ -79,9 +77,13 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import Logo from "./Logo.vue";
 
 export default defineComponent({
   name: "Navigation",
+  components: {
+    Logo,
+  },
   data() {
     return {
       menuOpen: false,

@@ -2,35 +2,38 @@
   <div class="flex flex-col h-full">
     <div class="mb-auto lg:space-y-20 sm:space-y-14 space-y-8">
       <Navigation />
-      <main class="lg:space-y-20 sm:space-y-14 space-y-8">
-        <Logo />
+      <main class="lg:space-y-20 sm:space-y-14 space-y-8 pb-10">
+        <Heading />
         <Downloads />
         <TownOfUs />
         <Discord />
       </main>
     </div>
     <Cliffs />
+    <Legal />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import Navigation from "./components/Navigation.vue";
-import Logo from "./components/Logo.vue";
+import Heading from "./components/Heading.vue";
 import Downloads from "./components/Downloads.vue";
+import TownOfUs from "./components/TownOfUs.vue";
 import Discord from "./components/Discord.vue";
 import Cliffs from "./components/Cliffs.vue";
-import TownOfUs from "./components/TownOfUs.vue";
+import Legal from "./components/Legal.vue";
 
 export default defineComponent({
   name: "App",
   components: {
     Navigation,
-    Logo,
+    Heading,
     Downloads,
+    TownOfUs,
     Discord,
     Cliffs,
-    TownOfUs,
+    Legal,
   },
 });
 </script>
