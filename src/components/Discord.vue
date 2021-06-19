@@ -40,7 +40,7 @@ export default defineComponent({
 
         this.memberCount = data["approximate_member_count"] ?? 0;
       } catch (error) {
-        console.error("Error fetching Discord invite details", error);
+//        console.error("Error fetching Discord invite details", error);
       }
     },
   },

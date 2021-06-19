@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-center sm:px-8 px-4">
     <p class="text-white font-medium md:text-xl sm:text-base text-sm">
-      <a href="https://static.polus.gg/town-of-us/TownOfUs-v2.0.4.zip"
+      <a href="https://github.com/polusgg/Town-Of-Us/releases"
          target="_blank"
          rel="noopener"
          class="hover:text-purple-400 focus:text-purple-500">
