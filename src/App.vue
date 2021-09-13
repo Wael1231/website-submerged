@@ -45,6 +45,15 @@ html, body {
   background-attachment: fixed;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
 #app {
   height: 100vh;
   width: 100%;
