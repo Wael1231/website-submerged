@@ -5,7 +5,6 @@
       <main class="lg:space-y-20 sm:space-y-14 space-y-8 pb-10">
         <Heading />
         <Downloads />
-        <TownOfUs />
         <Discord />
       </main>
     </div>
@@ -19,7 +18,6 @@ import { defineComponent } from "vue";
 import Navigation from "./components/Navigation.vue";
 import Heading from "./components/Heading.vue";
 import Downloads from "./components/Downloads.vue";
-import TownOfUs from "./components/TownOfUs.vue";
 import Discord from "./components/Discord.vue";
 import Cliffs from "./components/Cliffs.vue";
 import Legal from "./components/Legal.vue";
@@ -30,7 +28,6 @@ export default defineComponent({
     Navigation,
     Heading,
     Downloads,
-    TownOfUs,
     Discord,
     Cliffs,
     Legal,
