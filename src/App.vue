@@ -5,6 +5,7 @@
       <main class="lg:space-y-20 sm:space-y-14 space-y-8 pb-10">
         <Heading />
         <Downloads />
+        <Submerged />
         <Discord />
       </main>
     </div>
@@ -18,7 +19,7 @@ import { defineComponent } from "vue";
 import Navigation from "./components/Navigation.vue";
 import Heading from "./components/Heading.vue";
 import Downloads from "./components/Downloads.vue";
-import Discord from "./components/Discord.vue";
+import Submerged from "./components/TownOfUs.vue";
 import Cliffs from "./components/Cliffs.vue";
 import Legal from "./components/Legal.vue";
 
@@ -28,7 +29,7 @@ export default defineComponent({
     Navigation,
     Heading,
     Downloads,
-    Discord,
+    Submerged,
     Cliffs,
     Legal,
   },
@@ -38,7 +39,7 @@ export default defineComponent({
 <style>
 html, body {
   height: 100vh;
-  background: linear-gradient(180deg, #1E0F35 0%, #000000 100%);
+  background: linear-gradient(180deg,red 0.6%, blue 90%);
   background-attachment: fixed;
 }
 
@@ -56,8 +57,8 @@ body {
   width: 100%;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: bluescale;
   text-align: center;
-  color: #2c3e50;
+  color: #274f76;
 }
 </style>

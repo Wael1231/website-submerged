@@ -5,10 +5,10 @@
           height="676" />
     <div class="text-white">
       <p class="md:text-8xl sm:text-6xl text-4xl font-medium">
-        Polus.gg
+        Submerged
       </p>
       <p class="md:text-2xl sm:text-lg text-sm sm:mt-4 mt-2">
-        The world's best Among Us server
+        An Among Us mod which adds a new underwater map
       </p>
     </div>
   </div>
@@ -19,6 +19,7 @@ import { defineComponent } from "vue";
 import Logo from "./Logo.vue";
 
 export default defineComponent({
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "Heading",
   components: {
     Logo,

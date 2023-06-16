@@ -5,7 +5,10 @@
       Portions of the materials contained herein are property of Innersloth LLC. &copy; Innersloth LLC.
     </p>
     <p>
-      &copy; {{ new Date().getFullYear() }} Polus.gg. All rights reserved.
+      Submerged is licensed under a custom license. Please check LICENSE.md for more information in their github repo.
+    </p>
+    <p>
+      &copy; {{ new Date().getFullYear() }} Submerged. All rights reserved.
     </p>
   </div>
 </template>
@@ -14,6 +17,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "Legal",
 });
 </script>

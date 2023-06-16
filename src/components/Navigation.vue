@@ -5,7 +5,7 @@
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <button @click="menuOpen = !menuOpen"
                   type="button"
-                  class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                  class="inline-flex items-center justify-center p-2 rounded-full text-blue-400 hover:text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                   aria-controls="mobile-menu"
                   aria-expanded="false">
             <span class="sr-only">
@@ -30,23 +30,26 @@
                   width="64"
                   height="64" />
             <p class="block ml-2 text-white font-black">
-              Polus.gg
+              Submerged
             </p>
           </div>
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
               <a href="/"
-                 class="bg-[#5f3f72] text-white px-3 py-2 rounded-md text-sm font-medium">
+                 class="bg-[#44b0df] text-white px-3 py-2 rounded-full text-sm font-medium">
                 Home
               </a>
-              <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <span class="cursor-not-allowed text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-full text-sm font-medium">
                 Leaderboards
               </span>
-              <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                Contact
+              <span class="cursor-not-allowed text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-full text-sm font-medium">
+                Contact us
               </span>
-              <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+              <span class="cursor-not-allowed text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-full text-sm font-medium">
                 Staff
+              </span>
+              <span class="cursor-not-allowed text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-full text-sm font-medium">
+                Credits
               </span>
             </div>
           </div>
@@ -58,18 +61,21 @@
          id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1">
         <a href="/"
-           class="bg-[#5f3f72] text-white block px-3 py-2 rounded-md text-base font-medium">
+           class="bg-[#5f3f72] text-white block px-3 py-2 rounded-full text-base font-medium">
           Home
         </a>
-        <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <span class="cursor-not-allowed text-blue-300 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-full text-base font-medium">
           Leaderboards
         </span>
-        <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <span class="cursor-not-allowed text-blue-300 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-full text-base font-medium">
           Contact
         </span>
-        <span class="cursor-not-allowed text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+        <span class="cursor-not-allowed text-blue-300 hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-full text-base font-medium">
           Staff
         </span>
+        <span class="text-blue-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-full text-sm font-medium">
+           Credits
+       </span>
       </div>
     </div>
   </nav>
@@ -80,6 +86,7 @@ import { defineComponent } from "vue";
 import Logo from "./Logo.vue";
 
 export default defineComponent({
+  // eslint-disable-next-line vue/multi-word-component-names
   name: "Navigation",
   components: {
     Logo,
