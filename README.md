@@ -6,7 +6,9 @@
 
 # submerged-website
 
-an website for the best map [Submerged](https://github.com/SubmergedAmongUs/Submerged)
+an website for the best map [Submerged](https://github.com/SubmergedAmongUs/Submerged).
+
+You can vist the Website : https://submerged-website.vercel.app
 
 ## Project setup
 ```
