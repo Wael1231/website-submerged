@@ -4,7 +4,9 @@
 
 ---
 
-# polusgg-coming-soon
+# submerged-website
+
+an website for the best map [Submerged](https://github.com/SubmergedAmongUs/Submerged)
 
 ## Project setup
 ```
