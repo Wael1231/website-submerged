@@ -4,10 +4,10 @@
       <a href="https://github.com/SubmergedAmongUs/Submerged/releases/latest"
          target="_blank"
          rel="noopener"
-         class="hover:text-red-400 focus:text-blue-500">
+         class="hover:text-blue-600 focus:text-blue-500">
         Download Submerged here
 
-        <h1> Current Version : 2023.6.20 beta 1
+        <h1> Current Version : 2023.6.20 beta 2
         </h1>
       </a>
     </p>
